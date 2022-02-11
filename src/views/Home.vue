@@ -15,7 +15,13 @@ export default {
     HelloWorld
   },
   data() {
-    return {}
+    return {
+      fotos: [],
+    }
   },
+  methods: {
+    funcao() {}
+  },
+  
 }
 </script>
