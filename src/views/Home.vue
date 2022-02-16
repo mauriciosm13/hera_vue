@@ -2,6 +2,7 @@
   <div class="home" style="margin: 0; padding: 0;">
     <Menu/>
     <Header/>
+     <SobreNos/>
   </div>
 </template>
 
@@ -9,12 +10,14 @@
 // @ is an alias to /src
 import Menu from "@/components/Menu.vue";
 import Header from "@/components/Header.vue";
+import SobreNos from "@/components/SobreNos.vue";
 
 export default {
   name: "Home",
   components: {
     Menu,
-    Header
+    Header,
+    SobreNos
   },
   data() {
     return {
