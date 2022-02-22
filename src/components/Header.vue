@@ -1,6 +1,6 @@
 <template>
   <div class="header">
-    <img alt="Header" class = "img-responsive" src="../assets/imagens/Header.png">
+    <img alt="Header" class="img-responsive" src="../assets/imagens/Header.png">
   </div>
 </template>
 
@@ -20,14 +20,12 @@ export default {
   padding: 0;
   box-sizing: border-box;
 }
-img
-{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 img {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     width: 100%;
     max-width: 100%;
+    height: 100vh;
 }
 </style>

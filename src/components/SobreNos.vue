@@ -36,10 +36,11 @@ export default {
 @import url("https://fonts.googleapis.com/css2?family=Alice&display=swap");
 .sobre{
   background-color: #f4f6f7;
+  height: 100vh;
 }
 .card {
   transition: box-shadow .3s;
-  border-radius:10px;
+  border-radius:20px;
   border: 1px solid #ccc;
   background: #fff;
   box-shadow: 0 0 11px rgba(206, 204, 204, 0.2); 
@@ -50,6 +51,5 @@ export default {
 }
 .card-img-top {
   width: 100%;
-  height: auto;
 }
 </style>

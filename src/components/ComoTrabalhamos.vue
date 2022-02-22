@@ -43,9 +43,6 @@
                   <li><i class="lni-check-mark-circle"></i> Awesome Support</li>
                 </ul>
               </div>
-              <div class="pricing-btn text-center">
-                <a class="main-btn" href="#">GET STARTED</a>
-              </div>
               <div class="buttom-shape">
                 <svg
                   id="Layer_1"
@@ -118,9 +115,6 @@
                   <li><i class="lni-check-mark-circle"></i> Awesome Support</li>
                 </ul>
               </div>
-              <div class="pricing-btn text-center">
-                <a class="main-btn" href="#">GET STARTED</a>
-              </div>
               <div class="buttom-shape">
                 <svg
                   id="Layer_1"
@@ -168,9 +162,6 @@
           </div>
           <div class="col-lg-4 col-md-7 col-sm-9">
             <div class="single-pricing enterprise mt-40">
-              <div class="pricing-flower">
-                <img src="assets/images/flower.svg" alt="flower" />
-              </div>
               <div class="pricing-header text-right">
                 <h5 class="sub-title">Enterprise</h5>
                 <span class="price">$ 799</span>
@@ -191,9 +182,6 @@
                   </li>
                   <li><i class="lni-check-mark-circle"></i> Awesome Support</li>
                 </ul>
-              </div>
-              <div class="pricing-btn text-center">
-                <a class="main-btn" href="#">GET STARTED</a>
               </div>
               <div class="buttom-shape">
                 <svg
@@ -261,8 +249,10 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.color-1{fill:#945d41;isolation:isolate;}.cls-1{opacity:0.1;}.cls-2{opacity:0.2;}.cls-3{opacity:0.4;}.cls-4{opacity:0.6;}
+.color-2{fill:#ccc;isolation:isolate;}.cls-1{opacity:0.1;}.cls-2{opacity:0.2;}.cls-3{opacity:0.4;}.cls-4{opacity:0.6;}
 .color-3 {
-  fill: #4da422;
+  fill: #e5c645;
   isolation: isolate;
 }
 .cls-1 {
