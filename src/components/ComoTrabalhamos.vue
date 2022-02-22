@@ -23,9 +23,8 @@
           <div class="col-lg-4 col-md-7 col-sm-9">
             <div class="single-pricing mt-40">
               <div class="pricing-header text-center">
-                <h5 class="sub-title">Basic</h5>
-                <span class="price">$ 199</span>
-                <p class="year">per year</p>
+                <h5 class="sub-title">Bronze</h5>
+                <span class="price">R$ 5.900,00</span>
               </div>
               <div class="pricing-list">
                 <ul>
@@ -91,13 +90,9 @@
 
           <div class="col-lg-4 col-md-7 col-sm-9">
             <div class="single-pricing pro mt-40">
-              <div class="pricing-baloon">
-                <img src="assets/images/baloon.svg" alt="baloon" />
-              </div>
               <div class="pricing-header">
-                <h5 class="sub-title">Pro</h5>
-                <span class="price">$ 399</span>
-                <p class="year">per year</p>
+                <h5 class="sub-title">Prata</h5>
+                <span class="price">R$ 6.900,00</span>
               </div>
               <div class="pricing-list">
                 <ul>
@@ -162,10 +157,9 @@
           </div>
           <div class="col-lg-4 col-md-7 col-sm-9">
             <div class="single-pricing enterprise mt-40">
-              <div class="pricing-header text-right">
-                <h5 class="sub-title">Enterprise</h5>
-                <span class="price">$ 799</span>
-                <p class="year">per year</p>
+              <div class="pricing-header">
+                <h5 class="sub-title">Ouro</h5>
+                <span class="price">R$ 8.900,00</span>
               </div>
               <div class="pricing-list">
                 <ul>
@@ -315,12 +309,12 @@ export default {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: #2bdbdc;
+  background-color: #945d41;
   margin: 0 auto;
 }
 .single-pricing .pricing-header .price {
   display: block;
-  font-size: 64px;
+  font-size: 50px;
   font-weight: 600;
   line-height: 80px;
   margin-top: 32px;
@@ -403,9 +397,15 @@ export default {
 }
 
 .single-pricing.pro .pricing-header .sub-title::before {
-  right: auto;
+  background-color: #ccc;
+  position: absolute;
+  content: "";
+  width: 72px;
+  height: 4px;
+  bottom: 0;
   left: 0;
-  background-color: #0067f4;
+  right: 0;
+  margin: 0 auto;
 }
 
 .single-pricing.pro .pricing-baloon {
@@ -416,9 +416,15 @@ export default {
 }
 
 .single-pricing.enterprise .pricing-header .sub-title::before {
+  background-color:#e5c645;
+  position: absolute;
+  content: "";
+  width: 72px;
+  height: 4px;
+  bottom: 0;
+  left: 0;
   right: 0;
-  left: auto;
-  background-color: #0067f4;
+  margin: 0 auto;
 }
 
 .single-pricing.enterprise .pricing-flower {
