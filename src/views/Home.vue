@@ -2,7 +2,8 @@
   <div class="home" style="margin: 0; padding: 0;">
     <Menu/>
     <Header/>
-     <SobreNos/>
+    <SobreNos/>
+    <ComoTrabalhamos/>
   </div>
 </template>
 
@@ -11,13 +12,15 @@
 import Menu from "@/components/Menu.vue";
 import Header from "@/components/Header.vue";
 import SobreNos from "@/components/SobreNos.vue";
+import ComoTrabalhamos from "@/components/ComoTrabalhamos.vue";
 
 export default {
   name: "Home",
   components: {
     Menu,
     Header,
-    SobreNos
+    SobreNos,
+    ComoTrabalhamos
   },
   data() {
     return {
