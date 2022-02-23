@@ -29,17 +29,24 @@
               <div class="pricing-list">
                 <ul>
                   <li>
-                    <i class="lni-check-mark-circle"></i> Carefully crafted
-                    components
+                    <i class="lni-check-mark-circle"></i> Análise dos contratos
+                    já fechados
                   </li>
                   <li>
-                    <i class="lni-check-mark-circle"></i> Amazing page examples
+                    <i class="lni-check-mark-circle"></i> Indicação de
+                    fornecedores que ainda precisam ser contratados
                   </li>
                   <li>
-                    <i class="lni-check-mark-circle"></i> Super friendly support
-                    team
+                    <i class="lni-check-mark-circle"></i> Acompanhamento das
+                    reuniões finais
                   </li>
-                  <li><i class="lni-check-mark-circle"></i> Awesome Support</li>
+                  <li>
+                    <i class="lni-check-mark-circle"></i> Execução no dia do
+                    casamento
+                  </li>
+                  <li>
+                    <i class="lni-check-mark-circle"></i> Revisão dos contratos já fechados e possíveis contratos
+                  </li>
                 </ul>
               </div>
               <div class="buttom-shape">
@@ -97,17 +104,25 @@
               <div class="pricing-list">
                 <ul>
                   <li>
-                    <i class="lni-check-mark-circle"></i> Carefully crafted
-                    components
+                    <i class="lni-check-mark-circle"></i> Análise dos contratos
+                    já fechados
                   </li>
                   <li>
-                    <i class="lni-check-mark-circle"></i> Amazing page examples
+                    <i class="lni-check-mark-circle"></i> Indicação de
+                    fornecedores que ainda precisam ser contratados
                   </li>
                   <li>
-                    <i class="lni-check-mark-circle"></i> Super friendly support
-                    team
+                    <i class="lni-check-mark-circle"></i> Acompanhamento das
+                    reuniões finais
                   </li>
-                  <li><i class="lni-check-mark-circle"></i> Awesome Support</li>
+                  <li>
+                    <i class="lni-check-mark-circle"></i> Execução no dia do
+                    casamento
+                  </li>
+                  <li>
+                    <i class="lni-check-mark-circle"></i> Acompanhamento em 5
+                    fornecedores durante o processo de contratação
+                  </li>
                 </ul>
               </div>
               <div class="buttom-shape">
@@ -164,17 +179,25 @@
               <div class="pricing-list">
                 <ul>
                   <li>
-                    <i class="lni-check-mark-circle"></i> Carefully crafted
-                    components
+                    <i class="lni-check-mark-circle"></i> Análise dos contratos
+                    já fechados
                   </li>
                   <li>
-                    <i class="lni-check-mark-circle"></i> Amazing page examples
+                    <i class="lni-check-mark-circle"></i> Indicação de
+                    fornecedores que ainda precisam ser contratados
                   </li>
                   <li>
-                    <i class="lni-check-mark-circle"></i> Super friendly support
-                    team
+                    <i class="lni-check-mark-circle"></i> Acompanhamento das
+                    reuniões finais
                   </li>
-                  <li><i class="lni-check-mark-circle"></i> Awesome Support</li>
+                  <li>
+                    <i class="lni-check-mark-circle"></i> Execução no dia do
+                    casamento
+                  </li>
+                  <li>
+                    <i class="lni-check-mark-circle"></i> Acompanhamento da
+                    contratação dos fornecedores do início ao fim
+                  </li>
                 </ul>
               </div>
               <div class="buttom-shape">
@@ -243,8 +266,38 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.color-1{fill:#945d41;isolation:isolate;}.cls-1{opacity:0.1;}.cls-2{opacity:0.2;}.cls-3{opacity:0.4;}.cls-4{opacity:0.6;}
-.color-2{fill:#ccc;isolation:isolate;}.cls-1{opacity:0.1;}.cls-2{opacity:0.2;}.cls-3{opacity:0.4;}.cls-4{opacity:0.6;}
+.color-1 {
+  fill: #945d41;
+  isolation: isolate;
+}
+.cls-1 {
+  opacity: 0.1;
+}
+.cls-2 {
+  opacity: 0.2;
+}
+.cls-3 {
+  opacity: 0.4;
+}
+.cls-4 {
+  opacity: 0.6;
+}
+.color-2 {
+  fill: #ccc;
+  isolation: isolate;
+}
+.cls-1 {
+  opacity: 0.1;
+}
+.cls-2 {
+  opacity: 0.2;
+}
+.cls-3 {
+  opacity: 0.4;
+}
+.cls-4 {
+  opacity: 0.6;
+}
 .color-3 {
   fill: #e5c645;
   isolation: isolate;
@@ -347,7 +400,9 @@ export default {
 }
 .single-pricing .pricing-list {
   margin-top: 40px;
+  margin-bottom: 35px
 }
+
 .single-pricing .pricing-list ul li {
   font-size: 16px;
   line-height: 24px;
@@ -416,7 +471,7 @@ export default {
 }
 
 .single-pricing.enterprise .pricing-header .sub-title::before {
-  background-color:#e5c645;
+  background-color: #e5c645;
   position: absolute;
   content: "";
   width: 72px;
