@@ -1,5 +1,5 @@
 <template>
-  <div class="sobre">
+  <div id="sobre" class="sobre">
     <center><div class="card text-center" style="width: 65%">
       <center><img
         class="card-img-top"

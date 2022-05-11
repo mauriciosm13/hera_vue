@@ -5,6 +5,7 @@
     <SobreNos/>
     <ComoTrabalhamos/>
     <Depoimentos />
+    <Footer />
   </div>
 </template>
 
@@ -15,6 +16,7 @@ import Header from "@/components/Header.vue";
 import SobreNos from "@/components/SobreNos.vue";
 import ComoTrabalhamos from "@/components/ComoTrabalhamos.vue";
 import Depoimentos from "@/components/Depoimentos.vue";
+import Footer from "@/components/Footer.vue";
 
 export default {
   name: "Home",
@@ -23,7 +25,8 @@ export default {
     Header,
     SobreNos,
     ComoTrabalhamos,
-    Depoimentos
+    Depoimentos,
+    Footer
   },
   data() {
     return {

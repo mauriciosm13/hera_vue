@@ -18,16 +18,13 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item">
-          <a class="nav-link" href="#">Sobre Nós</a>
+          <a class="nav-link" href="#sobre">Sobre Nós</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Como Trabalhamos</a>
+          <a class="nav-link" href="#ComoTrabalhamos">Como Trabalhamos</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Relatos</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Entre em Contato</a>
+          <a class="nav-link" href="#testemunhos">Relatos</a>
         </li>
       </ul>
     </div>

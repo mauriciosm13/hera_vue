@@ -1,5 +1,5 @@
 <template>
-  <div class="testemunhos">
+  <div id="testemunhos" class="testemunhos">
      <!--====== PRICING PART START ======-->
 
     <section id="pricing" class="pricing-area">
@@ -131,7 +131,7 @@ Queria agradecer muito pelo o que vc fez pela gente!! Sei que fui um pouco dista
           <div class="col-lg-4 col-md-7 col-sm-9">
             <div class="single-pricing enterprise mt-40">
               <div class="pricing-header">
-                <h5 class="sub-title">Monique – Monique e Thales</h5>
+                <h5 class="sub-title">Monique e Thales</h5>
                 <span class="price"></span>
               </div>
               <div class="pricing-list">

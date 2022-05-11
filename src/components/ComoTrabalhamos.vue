@@ -1,5 +1,5 @@
 <template>
-  <div class="ComoTrabalhamos">
+  <div id="ComoTrabalhamos" class="ComoTrabalhamos">
     <!--====== PRICING PART START ======-->
 
     <section id="pricing" class="pricing-area">
