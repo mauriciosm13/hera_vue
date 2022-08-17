@@ -23,8 +23,8 @@
           <div class="col-lg-4 col-md-7 col-sm-9">
             <div class="single-pricing mt-40">
               <div class="pricing-header text-center">
-                <h5 class="sub-title">Bronze</h5>
-                <span class="price">R$ 5.900,00</span>
+                <h5 class="sub-title"></h5>
+                <span class="price">Bronze</span>
               </div>
               <div class="pricing-list">
                 <ul>
@@ -98,8 +98,8 @@
           <div class="col-lg-4 col-md-7 col-sm-9">
             <div class="single-pricing pro mt-40">
               <div class="pricing-header">
-                <h5 class="sub-title">Prata</h5>
-                <span class="price">R$ 6.900,00</span>
+                <h5 class="sub-title"></h5>
+                <span class="price">Prata</span>
               </div>
               <div class="pricing-list">
                 <ul>
@@ -173,8 +173,8 @@
           <div class="col-lg-4 col-md-7 col-sm-9">
             <div class="single-pricing enterprise mt-40">
               <div class="pricing-header">
-                <h5 class="sub-title">Ouro</h5>
-                <span class="price">R$ 8.900,00</span>
+                <h5 class="sub-title"></h5>
+                <span class="price">Ouro</span>
               </div>
               <div class="pricing-list">
                 <ul>
