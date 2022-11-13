@@ -1,6 +1,6 @@
 <template>
   <div id="testemunhos" class="testemunhos">
-     <!--====== PRICING PART START ======-->
+    <!--====== PRICING PART START ======-->
 
     <section id="pricing" class="pricing-area">
       <div class="container">
@@ -17,11 +17,15 @@
           <div class="col-lg-4 col-md-7 col-sm-9">
             <div class="single-pricing mt-40">
               <div class="pricing-header text-center">
+                <h5 class="sub-title">Renato e Gabriella</h5>
               </div>
               <div class="pricing-list">
-              “Naty! 
-Queria agradecer muito pelo o que vc fez pela gente!! Sei que fui um pouco distante nas reuniões e em algumas decisões da festa, mas quero saiba que você foi essencial na realização desse sonho!! Você e toda a sua equipe! Obrigado mesmo!! Serei eternamente grato a você por ter realizado esse sonho meu e da Caca!! Muito obrigado mesmo!!”
-
+                “Naty! Queria agradecer muito pelo o que vc fez pela gente!! Sei
+                que fui um pouco distante nas reuniões e em algumas decisões da
+                festa, mas quero saiba que você foi essencial na realização
+                desse sonho!! Você e toda a sua equipe! Obrigado mesmo!! Serei
+                eternamente grato a você por ter realizado esse sonho meu e da
+                Caca!! Muito obrigado mesmo!!”
               </div>
               <div class="buttom-shape">
                 <svg
@@ -76,12 +80,12 @@ Queria agradecer muito pelo o que vc fez pela gente!! Sei que fui um pouco dista
                 <span class="price"> </span>
               </div>
               <div class="pricing-list">
-               “Nati, 
-                  Muito obrigada por tudo
-                  Não tenho palavras para agradecer o seu trabalho e o da sua equipe foi tudo lindo!
-                  Vc foi mara e conseguiu deixar a louça controladora e ansiosa bem calma hahha aproveitei muito a festa e tudo graças a você, obrigada por me ajudar com cada detalhe e não deixar nada passar
-                  Muito obrigada mesmo
-                  Vou sentir falta das nossas conversas.”
+                “Nati, Muito obrigada por tudo Não tenho palavras para agradecer
+                o seu trabalho e o da sua equipe foi tudo lindo! Vc foi mara e
+                conseguiu deixar a louça controladora e ansiosa bem calma hahha
+                aproveitei muito a festa e tudo graças a você, obrigada por me
+                ajudar com cada detalhe e não deixar nada passar Muito obrigada
+                mesmo Vou sentir falta das nossas conversas.”
               </div>
               <div class="buttom-shape">
                 <svg
@@ -135,13 +139,13 @@ Queria agradecer muito pelo o que vc fez pela gente!! Sei que fui um pouco dista
                 <span class="price"></span>
               </div>
               <div class="pricing-list">
-                “Naty, só recebi elogios de tudo. O pessoal amou você e sua equipe e a gente também.
-                  Que carinho e cuidado!
-                  Nossa, de tudo, vocês foram o melhor investimento.
-                  Já estou com saudade também.”
-
-                 
-
+                “Naty, só recebi elogios de tudo. 
+                O pessoal amou você e sua
+                equipe e a gente também. Que carinho e cuidado! 
+                Nossa, de tudo,
+                vocês foram o melhor investimento que poderia ter feito, casamento ficou mais fácil com a equipe sempre atenciosa. 
+                Já estou com saudade também.
+                Muito Obrigado por tornar nosso sonho realidade”
               </div>
               <div class="buttom-shape">
                 <svg
@@ -200,13 +204,12 @@ Queria agradecer muito pelo o que vc fez pela gente!! Sei que fui um pouco dista
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: "HelloWorld",
   props: {
-    msg: String
-  }
-}
+    msg: String,
+  },
+};
 </script>
-
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
@@ -344,7 +347,7 @@ export default {
 }
 .single-pricing .pricing-list {
   margin-top: 40px;
-  margin-bottom: 35px
+  margin-bottom: 35px;
 }
 
 .single-pricing .pricing-list ul li {

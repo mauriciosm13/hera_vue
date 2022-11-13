@@ -7,8 +7,8 @@
         <div class="row justify-content-center">
           <div class="col-lg-6">
             <div class="section-title text-center pb-10">
-              <h4 class="title">Como trabalhamos</h4>
-              <p class="text">
+              <h4 class="title">Vem entender um pouco do nosso trabalho</h4>
+              <p>
                 Nosso formato de trabalho é sempre pensar no que é melhor e mais
                 fácil para os nossos clientes, estaremos sempre muito presente
                 durante todo o planejamento. Mas, temos 3 planos de trabalho
@@ -45,7 +45,8 @@
                     casamento
                   </li>
                   <li>
-                    <i class="lni-check-mark-circle"></i> Revisão dos contratos já fechados e possíveis contratos
+                    <i class="lni-check-mark-circle"></i> Revisão dos contratos
+                    já fechados e possíveis contratos
                   </li>
                 </ul>
               </div>
@@ -400,7 +401,7 @@ export default {
 }
 .single-pricing .pricing-list {
   margin-top: 40px;
-  margin-bottom: 35px
+  margin-bottom: 35px;
 }
 
 .single-pricing .pricing-list ul li {

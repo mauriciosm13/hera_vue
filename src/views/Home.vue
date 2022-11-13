@@ -1,9 +1,9 @@
 <template>
-  <div class="home" style="margin: 0; padding: 0;">
-    <Menu/>
-    <Header/>
-    <SobreNos/>
-    <ComoTrabalhamos/>
+  <div class="home" style="margin: 0; padding: 0">
+    <Menu />
+    <Header />
+    <SobreNos />
+    <ComoTrabalhamos />
     <Depoimentos />
     <Footer />
   </div>
@@ -26,19 +26,17 @@ export default {
     SobreNos,
     ComoTrabalhamos,
     Depoimentos,
-    Footer
+    Footer,
   },
   data() {
-    return {
-    };
+    return {};
   },
-  methods: {
-  },
+  methods: {},
 };
 </script>
 <style>
-html{
-  margin:0;
+html {
+  margin: 0;
   padding: 0;
 }
 </style>
